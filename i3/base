@@ -175,8 +175,8 @@ bar {
                background #00000088
         }
 }
+bindsym $mod+Delete exec i3lock-fancy-rapid 10 10
+
 
 for_window [class="^.*"] border pixel 1
 new_window 1pixel
-
-exec compton
