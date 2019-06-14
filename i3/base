@@ -178,4 +178,4 @@ for_window [class="^.*"] border pixel 2
 new_window 1pixel
 
 exec compton
-exec devilspie
+exec devilspie &
