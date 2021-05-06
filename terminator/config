@@ -1,6 +1,24 @@
 [global_config]
+  dbus = False
+  borderless = True
   hide_from_taskbar = True
+  title_use_system_font = False
+  title_font = Sans 20
 [keybindings]
+[profiles]
+  [[default]]
+    background_color = "#272727"
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro 12
+    foreground_color = "#f6f5f4"
+    show_titlebar = False
+    scrollback_lines = 10000
+    scrollback_infinite = True
+    use_system_font = False
+    use_theme_colors = True
+    copy_on_selection = True
 [layouts]
   [[default]]
     [[[child1]]]
@@ -10,13 +28,3 @@
       parent = ""
       type = Window
 [plugins]
-[profiles]
-  [[default]]
-    background_darkness = 0.75
-    background_type = transparent
-    cursor_color = "#aaaaaa"
-    font = Source Code Pro 12
-    foreground_color = "#ffffff"
-    scrollback_lines = 1000
-    show_titlebar = False
-    use_system_font = False
