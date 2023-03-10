@@ -7,18 +7,15 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#272727"
+    background_color = "#fdf6e3"
     background_darkness = 0.8
-    background_type = transparent
     cursor_blink = False
     cursor_color = "#aaaaaa"
     font = Source Code Pro Medium 11
-    foreground_color = "#f6f5f4"
+    foreground_color = "#657b83"
     show_titlebar = False
     scrollback_lines = 10000
     scrollback_infinite = True
-    use_system_font = False
-    use_theme_colors = True
     copy_on_selection = True
   [[light]]
     background_color = "#ffffff"
