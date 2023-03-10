@@ -177,9 +177,6 @@ bindsym $mod+Delete exec i3lock-fancy-rapid 10 10
 for_window [class="^.*"] border pixel 2
 new_window 1pixel
 
-exec compton
-exec devilspie &
-
 bindsym $mod+Mod1+u exec setxkbmap us
 bindsym $mod+Mod1+d exec setxkbmap de
 
